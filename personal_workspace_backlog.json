@@ -1,0 +1,131 @@
+{
+  "version": "1.0",
+  "exportDate": "2026-10-26T07:15:00.000Z",
+  "personal_workspace_categories_v1": [
+    {
+      "id": "cat_sys",
+      "name": "⚙️ Hệ thống & An toàn",
+      "icon": "🛡️",
+      "color": "#4F46E5"
+    },
+    {
+      "id": "cat_ui",
+      "name": "🎨 UI/UX & Dark Mode",
+      "icon": "🌙",
+      "color": "#059669"
+    },
+    {
+      "id": "cat_mobile",
+      "name": "📱 Đa nền tảng & PWA",
+      "icon": "📲",
+      "color": "#2563EB"
+    },
+    {
+      "id": "cat_modules",
+      "name": "🌱 Modules Mới (Habits & Notes)",
+      "icon": "🚀",
+      "color": "#D97706"
+    }
+  ],
+  "personal_workspace_tasks_v1": [
+    {
+      "id": "task_road_01",
+      "title": "Hoàn thiện Modal ⚙️ Cài đặt Pomodoro & Bật/Tắt Âm thanh",
+      "categoryId": "cat_sys",
+      "priority": "high",
+      "dueDate": "2026-10-27",
+      "scope": "short",
+      "quadrant": "Q1",
+      "status": "pending",
+      "actualTime": 0,
+      "recurring": "none",
+      "subtasks": [
+        { "id": "sub_101", "title": "Thiết kế UI Modal Cài đặt từ nút Icon ⚙️ trên Header", "completed": false },
+        { "id": "sub_102", "title": "Cho phép tùy chỉnh thời lượng Focus (25p/50p), Short Break (5p), Long Break (15p)", "completed": false },
+        { "id": "sub_103", "title": "Thêm công tắc Toggle Bật/Tắt hiệu ứng âm thanh Web Audio", "completed": false }
+      ]
+    },
+    {
+      "id": "task_road_02",
+      "title": "Tích hợp Thông báo Đẩy trình duyệt (Web Notification API)",
+      "categoryId": "cat_ui",
+      "priority": "high",
+      "dueDate": "2026-10-28",
+      "scope": "short",
+      "quadrant": "Q1",
+      "status": "pending",
+      "actualTime": 0,
+      "recurring": "none",
+      "subtasks": [
+        { "id": "sub_201", "title": "Xin quyền gửi thông báo Notification.requestPermission() khi mở app", "completed": false },
+        { "id": "sub_202", "title": "Bắn thông báo nổi khi hết giờ Pomodoro kể cả khi đang ở tab khác", "completed": false }
+      ]
+    },
+    {
+      "id": "task_road_03",
+      "title": "Thiết kế Chế độ Tối toàn diện (Complete Dark Theme Mode)",
+      "categoryId": "cat_ui",
+      "priority": "medium",
+      "dueDate": "2026-10-29",
+      "scope": "short",
+      "quadrant": "Q2",
+      "status": "pending",
+      "actualTime": 0,
+      "recurring": "none",
+      "subtasks": [
+        { "id": "sub_301", "title": "Bổ sung bộ CSS Variables cho [data-theme='dark'] trong :root", "completed": false },
+        { "id": "sub_302", "title": "Tạo nút chuyển đổi Toggle Light/Dark Mode trên Header", "completed": false },
+        { "id": "sub_303", "title": "Lưu trạng thái Theme vào LocalStorage để giữ nguyên khi mở lại", "completed": false }
+      ]
+    },
+    {
+      "id": "task_road_04",
+      "title": "Chuyển đổi ứng dụng thành PWA (Progressive Web App) đa nền tảng",
+      "categoryId": "cat_mobile",
+      "priority": "high",
+      "dueDate": "2026-11-02",
+      "scope": "medium",
+      "quadrant": "Q2",
+      "status": "pending",
+      "actualTime": 0,
+      "recurring": "none",
+      "subtasks": [
+        { "id": "sub_401", "title": "Tạo file manifest.json khai báo Tên, App Icon, Theme color", "completed": false },
+        { "id": "sub_402", "title": "Đăng ký Service Worker (sw.js) để chạy Offline và Cache tài nguyên", "completed": false },
+        { "id": "sub_403", "title": "Cấu hình responsive Touch-friendly cho màn hình smartphone/tablet", "completed": false }
+      ]
+    },
+    {
+      "id": "task_road_05",
+      "title": "Phát triển Module 03: Habit Tracker (Ghi nhận thói quen hàng ngày)",
+      "categoryId": "cat_modules",
+      "priority": "medium",
+      "dueDate": "2026-11-06",
+      "scope": "long",
+      "quadrant": "Q2",
+      "status": "pending",
+      "actualTime": 0,
+      "recurring": "daily",
+      "subtasks": [
+        { "id": "sub_501", "title": "Thêm Tab '🌱 Thói quen' trên Navigation Header", "completed": false },
+        { "id": "sub_502", "title": "Bảng điểm danh thói quen theo chuỗi ngày liên tục (Streak Counter)", "completed": false }
+      ]
+    },
+    {
+      "id": "task_road_06",
+      "title": "Phát triển Module 04: Quick Notes & Knowledge Base",
+      "categoryId": "cat_modules",
+      "priority": "low",
+      "dueDate": "2026-11-12",
+      "scope": "long",
+      "quadrant": "Q3",
+      "status": "pending",
+      "actualTime": 0,
+      "recurring": "none",
+      "subtasks": [
+        { "id": "sub_601", "title": "Thêm Tab '📝 Ghi chú' trên Navigation Header", "completed": false },
+        { "id": "sub_602", "title": "Giao diện soạn thảo ghi chú hỗ trợ định dạng Markdown đơn giản", "completed": false }
+      ]
+    }
+  ]
+}

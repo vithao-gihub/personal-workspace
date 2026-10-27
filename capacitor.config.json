@@ -1,0 +1,13 @@
+{
+  "appId": "com.quanlicanhan.app",
+  "appName": "Quản Lí Cá Nhân 2.0",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "allowMixedContent": true,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": true
+  }
+}
